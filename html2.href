@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mental Health Resources</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+            background:#3a34eb;
+            color: #ffffff;
+        }
+        button {
+            width: 150px;
+            height: 50px;
+            color: white;
+            background: #080808;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            animation: colourChange 5s infinite;
+        }
+        @keyframes colourChange {
+            from { background-color: red; }
+            to { background-color: green; }
+        }
+        img {
+            width: 600px;
+            height: 430px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Mental Health Resources</h1>
+    <p>Here are some helpful mental health resources:</p>
+    <ul style="text-align: left; display: inline-block;">
+        <li><strong>ConnexOntario:</strong> 1-866-531-2600 (24/7 support)</li>
+        <li><strong>Kids Help Phone:</strong> 1-800-668-6868 (Support for youth)</li>
+        <li><strong>Good2Talk:</strong> 1-866-925-5454 (Support for students)</li>
+    </ul>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXUVXERm3yWgAa9s5uAIG2et2PtD1mM-1n6g&s" alt="Mental Health Image">
+
+    <a href="index.html">
+        <button>Back to Main Page</button>
+    </a>
+</body>
+</html>
